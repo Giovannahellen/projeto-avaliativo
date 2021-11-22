@@ -1,35 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
 	<title>formulario</title>
 	<link rel="stylesheet" type="text/css" href="_css/estilo.css">
+	<script type="text/javascript" src="_js/validacoes.js"></script>
 </head>
-<body style="background-color:rgb(175 238 238);">
+<body style="background-color:rgb(221,160,221);">
 
- <h1>Formulario.html</h1>
+ <h1>Formulario</h1>
  <a href="index.html">index</a>
- <form>
- 	<p>Nome</p>
- 	<input type="text" name="Nome">
+ <form method="post">
+ 	<label>Nome</label>
+ 	<input type="text" name="Nome" id="nome">
  	<br>
- 	<p>Email</p>
- 	<input type="Email" name="email"placeholder="email@email.com">
+ 	<label>Email</label>
+ 	<input type="Email" name="email"placeholder="" id="email">
  	<br>
- 	<p>Celular</p>
- 	<input type="Celular" name="Celular"placeholder=(43)xxxxxxxxx>
+ 	<label>Celular</label>
+ 	<input type="Celular" name="Celular" placeholder="" id="cel">
  	<br>
- 	<p>cpf</p>
- 	<input type="cpf" name="cpf"placeholder="123.456.789-12">
+ 	<label>cpf</label>
+ 	<input type="cpf" name="cpf"placeholder="" id="cpf">
  	<br>
- 	<p>assunto</p>
- 	<input type="assunto" name="assunto">
+ 	<button onclick="verifica()">Enviar</button>
  	<br>
- 	<p>Descrição</p>
- 	<input type="Descrição" name="Descrição">
- 	<br>
- 	<button>Enviar</button>
- 	<br>
-
  </form>
 </body>
 </html>

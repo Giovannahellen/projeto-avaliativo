@@ -1,0 +1,19 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScrit no corpo da página</h2>
+
+<p id="demo">Exempo de parágrafo.</p>
+
+<button type="button" onclick="mudaParagrafo()">Mudar</button>
+
+<script>
+function meu() {
+  document.getElementById("demo").innerHTML = "Parágrafo alterado";
+}
+</script>
+
+</body>
+</html> 
